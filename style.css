@@ -1,0 +1,85 @@
+@import "reset.css";
+.header {
+    height: 70px;
+    width: 100%;
+    background: rgb(40, 122, 40);
+    position: fixed;
+}
+.img {
+    width: 40px;
+}
+.header-nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-ul {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+.header-a {
+    color: beige;
+    font-weight: 550;
+    transition: .2s;
+    font-size: 20px;
+}
+.header-a:hover{
+    color: rgb(202, 179, 47);
+}
+.header-lang {
+    color: beige;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-around;
+    width: 70px;
+    font-weight: 540;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.section {
+    margin-top: 100px;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 25%;
+}
+.main-img {
+    border-radius: 20px;
+    width: 100%;
+}
+.main-p {
+    text-align: center;
+    font-size: 24px;
+}
+.main-span {
+    text-align: center;
+    display: block;
+    padding: 30px;
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+}
+footer{
+    background: green;
+    margin-top: 100px;
+    height: 200px;
+}
+.div{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    margin-top: 15px;
+    color: rgb(249, 250, 179);
+}
+.footer-p{
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(249, 250, 179);
+    font-size: 15px
+}
